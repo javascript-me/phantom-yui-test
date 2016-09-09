@@ -6,9 +6,9 @@
 
 ### Run yui test with phantom
 
-    phantomjs loader.js sumTests.html
+    phantomjs start.js
 
-### Run one phantom command
+### Run sample phantom commands
 
     phantomjs command/commandLineArguments.js a hello
     phantomjs command/printAnImage.js
