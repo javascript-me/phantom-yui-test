@@ -5,4 +5,4 @@ YUI().add('junit-xml-parser', function (Y) {
             console.log(Y.Test.Format.JUnitXML(obj.results));
         });
     }
-})
+});

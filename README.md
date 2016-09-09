@@ -7,3 +7,5 @@
 ### Run one phantom command
 
     phantomjs command/commandLineArguments.js a hello
+    phantomjs command/printAnImage.js
+    
