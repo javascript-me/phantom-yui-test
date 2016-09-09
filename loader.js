@@ -1,8 +1,18 @@
 var page = new WebPage();
 
+page.viewportSize = {
+    width: 1024,
+    height: 768
+};
+
 page.onConsoleMessage = function (msg) {
     console.log(msg);
-    phantom.exit(0);
+
+    setTimeout(function () {
+        page.render("testResult.png");
+        phantom.exit();
+    }, 500);
+
 };
 
 var system = require('system');
