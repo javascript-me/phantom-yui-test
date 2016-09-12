@@ -7,4 +7,6 @@ if (args.length === 1) {
     args.forEach(function(arg, i) {
         console.log(i + ': ' + arg);
     });
-}
+};
+
+phantom.exit();
