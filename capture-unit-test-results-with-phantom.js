@@ -11,7 +11,7 @@ page.onConsoleMessage = function (msg) {
 
 };
 
-page.open("sumTests.html", function (status) {
+page.open("capture-unit-test-results-with-phantom.html", function (status) {
     if (status !== "success")
     {
         console.log("unable to load file");

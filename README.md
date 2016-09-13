@@ -2,14 +2,13 @@
 
 ### Run yui test in browser
 
-    Open sumTests.html. 
+    Open capture-unit-test-results-with-phantom.html
 
-### Run yui test with phantom
-
-    phantomjs start.js
+### Capture unit test results with phantom
+    
+    phantomjs capture-unit-test-results-with-phantom.js
 
 ### Run sample phantom commands
 
     phantomjs command/commandLineArguments.js a hello
     phantomjs command/printAnImage.js
-    

@@ -1,4 +1,4 @@
-YUI().add('test-result-printer', function (Y) {
+YUI().add('test-result-printer-for-phantom', function (Y) {
 
     // Print messages from YUI console.
     new Y.Console().on("entry", function (obj) {

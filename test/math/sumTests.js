@@ -1,4 +1,4 @@
-YUI().use('test', 'sum', 'console', 'test-result-printer', 'test-console', function (Y) {
+YUI().use('test', 'sum', 'console', 'test-result-printer-for-phantom', 'test-console', function (Y) {
 
     var anthonyCase = new Y.Test.Case({
         name: "anthony case",
