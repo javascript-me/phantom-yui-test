@@ -12,3 +12,9 @@
 
     phantomjs command/commandLineArguments.js a hello
     phantomjs command/printAnImage.js
+    
+### Run independent YUITest. 
+    
+    npm install yuitest
+    npm install -g yuitest
+    yuitest test/independent/sample-test.js

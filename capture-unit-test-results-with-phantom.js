@@ -5,7 +5,7 @@ page.onConsoleMessage = function (msg) {
 
     setTimeout(function () {
         page.viewportSize = {width: 1024, height: 768};
-        page.render("testResult.png");
+        page.render("./test/testResult.png");
         phantom.exit();
     }, 500);
 
